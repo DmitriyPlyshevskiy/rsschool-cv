@@ -1,6 +1,6 @@
 
 .wrapper {
-    width: 1440 px;
+    width: 1024 px;
     margin: 0 auto;
 }
 
@@ -24,4 +24,10 @@ header {
     font-size: 20px;
     font-weight: bold;
     padding: 0 10px;
+}
+ /* MAIN */
+
+.photo img {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
 }
