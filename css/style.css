@@ -1,12 +1,16 @@
+.wrapper {
+    width: 1024px;    
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    margin: 0 auto;
+}
 /* HEADER */
 header {
     max-width: 1024px;
-    background-color: aqua;
-    width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid black;
 }
 
 .menu ul {
@@ -24,13 +28,76 @@ header {
 
 main {
     max-width: 1024px;
+    border-bottom: 2px solid black;
 }
 
-.my-name {
-
+.name {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    border-bottom: 2px solid black;
 }
 
-.photo img {
+.name_photo img {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.about-me {
+    padding: 0 30px;
+    border-bottom: 2px solid black;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education {
+    width: 40%;
+    padding: 0 30px;
+}
+
+.english {
+    width: 40%;
+    padding: 0 30px;
+}
+
+.skills {
+    width: 40%;
+    padding: 0 30px;
+}
+
+.sample-code {
+    width: 40%;
+    padding: 0 30px;
+}
+
+.contacts {
+    padding: 0 30px;
+}
+
+.contacts_contact-list {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.contacts_contact-list li {    
+    width: 40%;
+    padding: 0 30px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a{
+    padding: 0 30px;
+    text-decoration: none;
 }
